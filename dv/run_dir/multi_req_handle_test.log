@@ -1,0 +1,32 @@
+# vsim -l multi_req_handle_test.log work.multi_req_handle_test -do "run -all; exit" -sv_seed random 
+# Start time: 03:08:53 on Dec 09,2024
+# Loading sv_std.std
+# Loading work.multi_req_handle_test
+# Loading work.crossbar_noc_tb
+# Loading work.requester_model
+# Loading work.completer_model
+# Loading work.crossbar_noc
+# Loading work.request_node
+# Loading work.buffer
+# Loading work.routing_logic
+# Loading work.rn_crossbar
+# Loading work.complete_node
+# Loading work.arbitrator
+# Loading work.cn_crossbar
+# Sv_Seed = 4257200170
+# run -all
+# 0: start multi_req_handle_test
+# 195: [WRITE_REQUEST]: reqr_id: 0, comp_id: 3, addr: 3c7167afd5d6a13a, data: 910d85ff
+# 196: [WRITE_REQUEST]: reqr_id: 1, comp_id: 0, addr: a28cec8cc3739b8, data: c1c21b71
+# 197: [WRITE_REQUEST]: reqr_id: 2, comp_id: 2, addr: 2fb5f6430d057362, data: 25d126b6
+# 345: [WRITE_REQUEST]: reqr_id: 0, comp_id: 2, addr: 2dd220ddebee1e00, data: 5682cd97
+# 346: [READ_REQUEST]: reqr_id: 1, comp_id: 0, addr: 59948eb6a55931, data: 0
+# 347: [READ_REQUEST]: reqr_id: 2, comp_id: 3, addr: 3212b05438a23b62, data: 0
+# 495: [WRITE_REQUEST]: reqr_id: 0, comp_id: 2, addr: 282897a7dcc0b556, data: 73e6b748
+# 496: [READ_REQUEST]: reqr_id: 1, comp_id: 0, addr: d78b16a595f9641, data: 0
+# 497: [WRITE_REQUEST]: reqr_id: 2, comp_id: 3, addr: 376b66c329b228f5, data: 394ed0d
+# 545: complete multi_req_handle_test
+# ** Note: $finish    : ./sv/test/multi_req_handle_test.sv(74)
+#    Time: 545 ps  Iteration: 1  Instance: /multi_req_handle_test
+# End time: 03:08:53 on Dec 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

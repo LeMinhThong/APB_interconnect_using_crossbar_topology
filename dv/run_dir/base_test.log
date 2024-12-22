@@ -1,0 +1,26 @@
+# vsim -l base_test.log work.base_test -do "run -all; exit" -sv_seed random 
+# Start time: 11:57:33 on Dec 10,2024
+# Loading sv_std.std
+# Loading work.base_test
+# Loading work.crossbar_noc_tb
+# Loading work.requester_model
+# Loading work.completer_model
+# Loading work.crossbar_noc
+# Loading work.request_node
+# Loading work.buffer
+# Loading work.routing_logic
+# Loading work.rn_crossbar
+# Loading work.complete_node
+# Loading work.arbitrator
+# Loading work.cn_crossbar
+# Sv_Seed = 3657003990
+# run -all
+# 0: start base_test
+# 101: [WRITE_REQUEST]: reqr_id: 0, comp_id: 3, addr: 3c5e9e36e43cd16c, data: 8c67b380
+# 220: [WRITE_REQUEST]: reqr_id: 2, comp_id: 3, addr: 33dbe36f6b600c79, data: 6a66b9a
+# 340: [READ_REQUEST]: reqr_id: 0, comp_id: 3, addr: 300cf47d50e25aa6, data: 0
+# 561: complete base_test
+# ** Note: $finish    : ./sv/test/base_test.sv(47)
+#    Time: 561 ps  Iteration: 0  Instance: /base_test
+# End time: 11:57:33 on Dec 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

@@ -1,0 +1,38 @@
+# vsim -l req_order_test.log work.req_order_test -do "run -all; exit" -sv_seed random 
+# Start time: 13:07:08 on Dec 09,2024
+# Loading sv_std.std
+# Loading work.req_order_test
+# Loading work.crossbar_noc_tb
+# Loading work.requester_model
+# Loading work.completer_model
+# Loading work.crossbar_noc
+# Loading work.request_node
+# Loading work.buffer
+# Loading work.routing_logic
+# Loading work.rn_crossbar
+# Loading work.complete_node
+# Loading work.arbitrator
+# Loading work.cn_crossbar
+# Sv_Seed = 2754676666
+# run -all
+# 0: start req_order_test
+# 145: [WRITE_REQUEST]: reqr_id: 0, comp_id: 1, addr: 130c8155e7b4f26f, data: bad0fa3c
+# 165: [WRITE_REQUEST]: reqr_id: 2, comp_id: 1, addr: 17a8998a841d68e5, data: 3813fa76
+# 175: [READ_REQUEST]: reqr_id: 1, comp_id: 1, addr: 1a62e2efbfa46ea9, data: 0
+# 555: [READ_REQUEST]: reqr_id: 0, comp_id: 0, addr: d173cac38659e1f, data: 0
+# 565: [READ_REQUEST]: reqr_id: 2, comp_id: 0, addr: d3ed43b01a41a5e, data: 0
+# 565: [WRITE_REQUEST]: reqr_id: 1, comp_id: 0, addr: 1de0cd6a4dc93b8, data: 53856803
+# 915: [WRITE_REQUEST]: reqr_id: 2, comp_id: 2, addr: 21320e4f43e079ac, data: 38a947a8
+# 975: [WRITE_REQUEST]: reqr_id: 0, comp_id: 2, addr: 241fe6b7dbb5a324, data: 28803603
+# 975: [WRITE_REQUEST]: reqr_id: 1, comp_id: 2, addr: 2aad3a2fe620bd97, data: e86bc774
+# 1265: [READ_REQUEST]: reqr_id: 0, comp_id: 2, addr: 2f429db398d22ab8, data: 0
+# 1305: [READ_REQUEST]: reqr_id: 2, comp_id: 2, addr: 24a2268be8719143, data: 0
+# 1335: [READ_REQUEST]: reqr_id: 1, comp_id: 2, addr: 223e3180eb158cfb, data: 0
+# 1635: [READ_REQUEST]: reqr_id: 0, comp_id: 3, addr: 33fb82bc5390a97b, data: 0
+# 1695: [READ_REQUEST]: reqr_id: 1, comp_id: 3, addr: 3c92199fcc419e40, data: 0
+# 1695: [READ_REQUEST]: reqr_id: 2, comp_id: 3, addr: 3395d3063dd3891e, data: 0
+# 1975: complete req_order_test
+# ** Note: $finish    : ./sv/test/req_order_test.sv(72)
+#    Time: 1975 ps  Iteration: 1  Instance: /req_order_test
+# End time: 13:07:08 on Dec 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

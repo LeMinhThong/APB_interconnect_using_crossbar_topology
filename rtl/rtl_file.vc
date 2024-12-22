@@ -1,0 +1,8 @@
+../rtl/arbitrator.v
+../rtl/buffer.v
+../rtl/cn_crossbar.v
+../rtl/complete_node.v
+../rtl/crossbar_noc.v
+../rtl/request_node.v
+../rtl/rn_crossbar.v
+../rtl/routing_logic.v

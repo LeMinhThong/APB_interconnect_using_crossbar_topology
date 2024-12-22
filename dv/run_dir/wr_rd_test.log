@@ -1,0 +1,47 @@
+# vsim -l wr_rd_test.log work.wr_rd_test -do "run -all; exit" -sv_seed random 
+# Start time: 00:21:20 on Dec 09,2024
+# Loading sv_std.std
+# Loading work.wr_rd_test
+# Loading work.crossbar_noc_tb
+# Loading work.requester_model
+# Loading work.completer_model
+# Loading work.crossbar_noc
+# Loading work.request_node
+# Loading work.buffer
+# Loading work.routing_logic
+# Loading work.rn_crossbar
+# Loading work.complete_node
+# Loading work.arbitrator
+# Loading work.cn_crossbar
+# Sv_Seed = 3086676434
+# run -all
+# 0: start wr_rd_test
+# 195: [READ_REQUEST]: reqr_id: 0, comp_id: 0, addr: 21a3c78b2b9eea, data: 0
+# 315: [READ_REQUEST]: reqr_id: 0, comp_id: 1, addr: 172bf091fc252b81, data: 0
+# 435: [READ_REQUEST]: reqr_id: 0, comp_id: 2, addr: 280f6c9086a83b49, data: 0
+# 555: [READ_REQUEST]: reqr_id: 0, comp_id: 3, addr: 387afab8a03b78b2, data: 0
+# 675: [READ_REQUEST]: reqr_id: 1, comp_id: 0, addr: 513d791be66d976, data: 0
+# 795: [READ_REQUEST]: reqr_id: 1, comp_id: 1, addr: 1bb3c5069805ab90, data: 0
+# 915: [READ_REQUEST]: reqr_id: 1, comp_id: 2, addr: 26f3d5e16e957116, data: 0
+# 1035: [READ_REQUEST]: reqr_id: 1, comp_id: 3, addr: 35a416d8d3d12c04, data: 0
+# 1155: [READ_REQUEST]: reqr_id: 2, comp_id: 0, addr: c7983200a0ee94e, data: 0
+# 1275: [READ_REQUEST]: reqr_id: 2, comp_id: 1, addr: 13e36ffdbe926a81, data: 0
+# 1395: [READ_REQUEST]: reqr_id: 2, comp_id: 2, addr: 25487c042602f7ee, data: 0
+# 1515: [READ_REQUEST]: reqr_id: 2, comp_id: 3, addr: 31b028fbc5b5417d, data: 0
+# 1635: [WRITE_REQUEST]: reqr_id: 0, comp_id: 0, addr: ea0ddb0f666b2a2, data: 6c177bbe
+# 1755: [WRITE_REQUEST]: reqr_id: 0, comp_id: 1, addr: 153ddc9cf0af0a24, data: 2b3a9b0
+# 1875: [WRITE_REQUEST]: reqr_id: 0, comp_id: 2, addr: 2baaabc0f6e7d989, data: 2634c45a
+# 1995: [WRITE_REQUEST]: reqr_id: 0, comp_id: 3, addr: 3f3261e5e0efd763, data: bc556be8
+# 2115: [WRITE_REQUEST]: reqr_id: 1, comp_id: 0, addr: c3a5f823bca8071, data: 4ec98d0a
+# 2235: [WRITE_REQUEST]: reqr_id: 1, comp_id: 1, addr: 1b1104c934374753, data: 2baee1cb
+# 2355: [WRITE_REQUEST]: reqr_id: 1, comp_id: 2, addr: 2a1b47b7c7449ee4, data: 81efab00
+# 2475: [WRITE_REQUEST]: reqr_id: 1, comp_id: 3, addr: 332e85ebfbf59861, data: 6b06aa97
+# 2595: [WRITE_REQUEST]: reqr_id: 2, comp_id: 0, addr: 40a386d04b24333, data: 2bda8f9f
+# 2715: [WRITE_REQUEST]: reqr_id: 2, comp_id: 1, addr: 1d25a66ed4c3eb25, data: 73604155
+# 2835: [WRITE_REQUEST]: reqr_id: 2, comp_id: 2, addr: 2b391ce72cf7a2d5, data: afb1a2ac
+# 2955: [WRITE_REQUEST]: reqr_id: 2, comp_id: 3, addr: 39cf44e60709ef2d, data: cdb13bd3
+# 2975: complete wr_rd_test
+# ** Note: $finish    : ./sv/test/wr_rd_test.sv(41)
+#    Time: 2975 ps  Iteration: 1  Instance: /wr_rd_test
+# End time: 00:21:21 on Dec 09,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

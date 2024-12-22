@@ -1,0 +1,13 @@
++incdir+../rtl
++incdir+./sv
++incdir+./sv/tb
++incdir+./sv/vip
++incdir+./sv/test
+
+// define file
+./sv/define_file.sv
+
+-f ../rtl/rtl_file.vc
+-f ./sv/vip/vip_file.vc
+-f ./sv/tb/tb_file.vc
+-f ./sv/test/test_file.vc

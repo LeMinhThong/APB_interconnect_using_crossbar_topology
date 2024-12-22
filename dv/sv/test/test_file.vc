@@ -1,0 +1,5 @@
+./sv/test/base_test.sv
+./sv/test/wr_rd_test.sv
+./sv/test/same_time_sep_comp_test.sv
+./sv/test/same_time_comp_test.sv
+./sv/test/req_order_test.sv

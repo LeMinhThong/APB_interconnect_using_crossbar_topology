@@ -1,0 +1,300 @@
+# Reading pref.tcl
+vsim work.base_test
+# vsim work.base_test 
+# Start time: 14:57:14 on Dec 10,2024
+# Loading sv_std.std
+# Loading work.base_test
+# Loading work.crossbar_noc_tb
+# Loading work.requester_model
+# Loading work.completer_model
+# Loading work.crossbar_noc
+# Loading work.request_node
+# Loading work.buffer
+# Loading work.routing_logic
+# Loading work.rn_crossbar
+# Loading work.complete_node
+# Loading work.arbitrator
+# Loading work.cn_crossbar
+do F:/mobaxterm/home/hcmus/tk_ip/noc/crossbar/dv/run_dir/cn_wave.do
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: lmtkt  Hostname: LMTK  ProcessID: 15524
+#           Attempting to use alternate WLF file "./wlftczt2cf".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftczt2cf
+run -all
+# 0: start base_test
+# 101: [READ_REQUEST]: reqr_id: 0, comp_id: 2, addr: 2cb9e3b6510e08c6, data: 0
+# 220: [WRITE_REQUEST]: reqr_id: 1, comp_id: 2, addr: 2386553a46f91c6a, data: 6b25d1b4
+# 340: [WRITE_REQUEST]: reqr_id: 0, comp_id: 2, addr: 20ed77d4149f40ae, data: 38f1817d
+# 561: complete base_test
+# ** Note: $finish    : ./sv/test/base_test.sv(47)
+#    Time: 561 ps  Iteration: 0  Instance: /base_test
+# 1
+# Break in Module base_test at ./sv/test/base_test.sv line 47
+# WARNING: No extended dataflow license exists
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+do F:/mobaxterm/home/hcmus/tk_ip/noc/crossbar/dv/run_dir/rn_wave.do
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run -all
+# Break key hit
+# Simulation stop requested.
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run -all
+# Break key hit
+# Simulation stop requested.
+restart -f; run -all
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# 0: start base_test
+# 101: [READ_REQUEST]: reqr_id: 0, comp_id: 2, addr: 2cb9e3b6510e08c6, data: 0
+# 220: [WRITE_REQUEST]: reqr_id: 1, comp_id: 2, addr: 2386553a46f91c6a, data: 6b25d1b4
+# 340: [WRITE_REQUEST]: reqr_id: 0, comp_id: 2, addr: 20ed77d4149f40ae, data: 38f1817d
+# 561: complete base_test
+# ** Note: $finish    : ./sv/test/base_test.sv(47)
+#    Time: 561 ps  Iteration: 0  Instance: /base_test
+# 1
+# Break in Module base_test at ./sv/test/base_test.sv line 47
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+quit -sim
+# End time: 19:01:17 on Dec 10,2024, Elapsed time: 4:04:03
+# Errors: 0, Warnings: 0
+vlog -work F:/mobaxterm/home/hcmus/tk_ip/noc/crossbar/dv/work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:01:25 on Dec 10,2024
+# vlog -reportprogress 300 -work F:/mobaxterm/home/hcmus/tk_ip/noc/crossbar/dv/work -refresh -force_refresh 
+# -- Refreshing module arbitrator
+# -- Refreshing module base_test
+# -- Refreshing module buffer
+# -- Refreshing module cn_crossbar
+# -- Refreshing module complete_node
+# -- Refreshing module complete_node_tb
+# -- Refreshing module completer_model
+# -- Refreshing module crossbar_noc
+# -- Refreshing module crossbar_noc_tb
+# -- Refreshing module req_order_test
+# -- Refreshing module request_node
+# -- Refreshing module request_node_tb
+# -- Refreshing module requester_model
+# -- Refreshing module rn_crossbar
+# -- Refreshing module routing_logic
+# -- Refreshing module same_time_comp_req_test
+# -- Refreshing module same_time_comp_test
+# -- Refreshing module same_time_sep_comp_req_test
+# -- Refreshing module same_time_sep_comp_test
+# -- Refreshing module wr_rd_test
+# End time: 19:01:25 on Dec 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work F:/mobaxterm/home/hcmus/tk_ip/noc/crossbar/dv/work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:01:26 on Dec 10,2024
+# vcom -reportprogress 300 -work F:/mobaxterm/home/hcmus/tk_ip/noc/crossbar/dv/work -refresh -force_refresh 
+# -- Skipping module arbitrator
+# -- Skipping module base_test
+# -- Skipping module buffer
+# -- Skipping module cn_crossbar
+# -- Skipping module complete_node
+# -- Skipping module complete_node_tb
+# -- Skipping module completer_model
+# -- Skipping module crossbar_noc
+# -- Skipping module crossbar_noc_tb
+# -- Skipping module req_order_test
+# -- Skipping module request_node
+# -- Skipping module request_node_tb
+# -- Skipping module requester_model
+# -- Skipping module rn_crossbar
+# -- Skipping module routing_logic
+# -- Skipping module same_time_comp_req_test
+# -- Skipping module same_time_comp_test
+# -- Skipping module same_time_sep_comp_req_test
+# -- Skipping module same_time_sep_comp_test
+# -- Skipping module wr_rd_test
+# End time: 19:01:26 on Dec 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work F:/mobaxterm/home/hcmus/tk_ip/noc/crossbar/dv/work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:01:55 on Dec 10,2024
+# vlog -reportprogress 300 -work F:/mobaxterm/home/hcmus/tk_ip/noc/crossbar/dv/work -refresh -force_refresh 
+# -- Refreshing module arbitrator
+# -- Refreshing module base_test
+# -- Refreshing module buffer
+# -- Refreshing module cn_crossbar
+# -- Refreshing module complete_node
+# -- Refreshing module complete_node_tb
+# -- Refreshing module completer_model
+# -- Refreshing module crossbar_noc
+# -- Refreshing module crossbar_noc_tb
+# -- Refreshing module req_order_test
+# -- Refreshing module request_node
+# -- Refreshing module request_node_tb
+# -- Refreshing module requester_model
+# -- Refreshing module rn_crossbar
+# -- Refreshing module routing_logic
+# -- Refreshing module same_time_comp_test
+# -- Refreshing module same_time_sep_comp_test
+# -- Refreshing module wr_rd_test
+# End time: 19:01:55 on Dec 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work F:/mobaxterm/home/hcmus/tk_ip/noc/crossbar/dv/work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:01:55 on Dec 10,2024
+# vcom -reportprogress 300 -work F:/mobaxterm/home/hcmus/tk_ip/noc/crossbar/dv/work -refresh -force_refresh 
+# -- Skipping module arbitrator
+# -- Skipping module base_test
+# -- Skipping module buffer
+# -- Skipping module cn_crossbar
+# -- Skipping module complete_node
+# -- Skipping module complete_node_tb
+# -- Skipping module completer_model
+# -- Skipping module crossbar_noc
+# -- Skipping module crossbar_noc_tb
+# -- Skipping module req_order_test
+# -- Skipping module request_node
+# -- Skipping module request_node_tb
+# -- Skipping module requester_model
+# -- Skipping module rn_crossbar
+# -- Skipping module routing_logic
+# -- Skipping module same_time_comp_test
+# -- Skipping module same_time_sep_comp_test
+# -- Skipping module wr_rd_test
+# End time: 19:01:55 on Dec 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.same_time_comp_test
+# vsim work.same_time_comp_test 
+# Start time: 19:01:58 on Dec 10,2024
+# Loading sv_std.std
+# Loading work.same_time_comp_test
+# Loading work.crossbar_noc_tb
+# Loading work.requester_model
+# Loading work.completer_model
+# Loading work.crossbar_noc
+# Loading work.request_node
+# Loading work.buffer
+# Loading work.routing_logic
+# Loading work.rn_crossbar
+# Loading work.complete_node
+# Loading work.arbitrator
+# Loading work.cn_crossbar
+add wave -position insertpoint sim:/same_time_comp_test/tb/noc/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: lmtkt  Hostname: LMTK  ProcessID: 15524
+#           Attempting to use alternate WLF file "./wlftwr6fsw".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftwr6fsw
+run -all
+# 0: start same_time_comp_test
+# 101: [WRITE_REQUEST]: reqr_id: 0, comp_id: 0, addr: 1315c945ac3256c, data: abb229ab
+# 102: [READ_REQUEST]: reqr_id: 1, comp_id: 0, addr: 419eb28a37928c4, data: 0
+# 103: [READ_REQUEST]: reqr_id: 2, comp_id: 0, addr: d5f8aa94fea2738, data: 0
+# 400: [WRITE_REQUEST]: reqr_id: 0, comp_id: 2, addr: 257dbb84fc51b547, data: a6b5d2b3
+# 401: [READ_REQUEST]: reqr_id: 1, comp_id: 2, addr: 2c047b9ed8a61ef8, data: 0
+# 402: [WRITE_REQUEST]: reqr_id: 2, comp_id: 2, addr: 23b388c324a61f8e, data: 1c722590
+# 700: [WRITE_REQUEST]: reqr_id: 0, comp_id: 2, addr: 254bd77c243b937e, data: 4d9a902f
+# 701: [WRITE_REQUEST]: reqr_id: 1, comp_id: 2, addr: 2f79306862e130f3, data: 574b5783
+# 702: [READ_REQUEST]: reqr_id: 2, comp_id: 2, addr: 27e2b293126dab89, data: 0
+# Break key hit
+# Simulation stop requested.
+restart -f; run 1000
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# 0: start same_time_comp_test
+# 101: [WRITE_REQUEST]: reqr_id: 0, comp_id: 0, addr: 1315c945ac3256c, data: abb229ab
+# 102: [READ_REQUEST]: reqr_id: 1, comp_id: 0, addr: 419eb28a37928c4, data: 0
+# 103: [READ_REQUEST]: reqr_id: 2, comp_id: 0, addr: d5f8aa94fea2738, data: 0
+# 400: [WRITE_REQUEST]: reqr_id: 0, comp_id: 2, addr: 257dbb84fc51b547, data: a6b5d2b3
+# 401: [READ_REQUEST]: reqr_id: 1, comp_id: 2, addr: 2c047b9ed8a61ef8, data: 0
+# 402: [WRITE_REQUEST]: reqr_id: 2, comp_id: 2, addr: 23b388c324a61f8e, data: 1c722590
+# 700: [WRITE_REQUEST]: reqr_id: 0, comp_id: 2, addr: 254bd77c243b937e, data: 4d9a902f
+# 701: [WRITE_REQUEST]: reqr_id: 1, comp_id: 2, addr: 2f79306862e130f3, data: 574b5783
+# 702: [READ_REQUEST]: reqr_id: 2, comp_id: 2, addr: 27e2b293126dab89, data: 0
+restart -f; run -2000
+# Loading work.same_time_comp_test
+# Loading work.crossbar_noc_tb
+# Loading work.requester_model
+# Loading work.completer_model
+# Loading work.crossbar_noc
+# Loading work.request_node
+# Loading work.buffer
+# Loading work.routing_logic
+# Loading work.rn_crossbar
+# Loading work.complete_node
+# Loading work.arbitrator
+# Loading work.cn_crossbar
+# Unknown option: 2000
+# ** UI-Msg: (vsim-4005) Invalid argument '-2000'.
+# Usage: run [<timesteps> [<time_units>]] | -all | -continue | -next | -step | -over | -out | -init | -final
+restart -f; run 2000
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# 0: start same_time_comp_test
+# 101: [WRITE_REQUEST]: reqr_id: 0, comp_id: 0, addr: 1315c945ac3256c, data: abb229ab
+# 102: [READ_REQUEST]: reqr_id: 1, comp_id: 0, addr: 419eb28a37928c4, data: 0
+# 103: [READ_REQUEST]: reqr_id: 2, comp_id: 0, addr: d5f8aa94fea2738, data: 0
+# 450: [WRITE_REQUEST]: reqr_id: 0, comp_id: 2, addr: 257dbb84fc51b547, data: a6b5d2b3
+# 451: [READ_REQUEST]: reqr_id: 1, comp_id: 2, addr: 2c047b9ed8a61ef8, data: 0
+# 452: [WRITE_REQUEST]: reqr_id: 2, comp_id: 2, addr: 23b388c324a61f8e, data: 1c722590
+# 800: [WRITE_REQUEST]: reqr_id: 0, comp_id: 2, addr: 254bd77c243b937e, data: 4d9a902f
+# 801: [WRITE_REQUEST]: reqr_id: 1, comp_id: 2, addr: 2f79306862e130f3, data: 574b5783
+# 802: [READ_REQUEST]: reqr_id: 2, comp_id: 2, addr: 27e2b293126dab89, data: 0
+# 1150: complete same_time_comp_test
+# ** Note: $finish    : ./sv/test/same_time_comp_test.sv(70)
+#    Time: 1150 ps  Iteration: 1  Instance: /same_time_comp_test
+# 1
+# Break in Module same_time_comp_test at ./sv/test/same_time_comp_test.sv line 70
+add wave -position insertpoint sim:/same_time_comp_test/tb/noc/cn1/arb/*
+restart -f; run 2000
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# 0: start same_time_comp_test
+# 101: [WRITE_REQUEST]: reqr_id: 0, comp_id: 0, addr: 1315c945ac3256c, data: abb229ab
+# 102: [READ_REQUEST]: reqr_id: 1, comp_id: 0, addr: 419eb28a37928c4, data: 0
+# 103: [READ_REQUEST]: reqr_id: 2, comp_id: 0, addr: d5f8aa94fea2738, data: 0
+# 450: [WRITE_REQUEST]: reqr_id: 0, comp_id: 2, addr: 257dbb84fc51b547, data: a6b5d2b3
+# 451: [READ_REQUEST]: reqr_id: 1, comp_id: 2, addr: 2c047b9ed8a61ef8, data: 0
+# 452: [WRITE_REQUEST]: reqr_id: 2, comp_id: 2, addr: 23b388c324a61f8e, data: 1c722590
+# 800: [WRITE_REQUEST]: reqr_id: 0, comp_id: 2, addr: 254bd77c243b937e, data: 4d9a902f
+# 801: [WRITE_REQUEST]: reqr_id: 1, comp_id: 2, addr: 2f79306862e130f3, data: 574b5783
+# 802: [READ_REQUEST]: reqr_id: 2, comp_id: 2, addr: 27e2b293126dab89, data: 0
+# 1150: complete same_time_comp_test
+# ** Note: $finish    : ./sv/test/same_time_comp_test.sv(70)
+#    Time: 1150 ps  Iteration: 1  Instance: /same_time_comp_test
+# 1
+# Break in Module same_time_comp_test at ./sv/test/same_time_comp_test.sv line 70

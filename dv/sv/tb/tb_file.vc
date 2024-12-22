@@ -1,0 +1,3 @@
+./sv/tb/request_node_tb.sv
+./sv/tb/complete_node_tb.sv
+./sv/tb/crossbar_noc_tb.sv

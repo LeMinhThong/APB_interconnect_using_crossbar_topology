@@ -1,0 +1,32 @@
+# vsim -l same_time_sep_comp_test.log work.same_time_sep_comp_test -do "run -all; exit" -sv_seed random 
+# Start time: 19:00:26 on Dec 10,2024
+# Loading sv_std.std
+# Loading work.same_time_sep_comp_test
+# Loading work.crossbar_noc_tb
+# Loading work.requester_model
+# Loading work.completer_model
+# Loading work.crossbar_noc
+# Loading work.request_node
+# Loading work.buffer
+# Loading work.routing_logic
+# Loading work.rn_crossbar
+# Loading work.complete_node
+# Loading work.arbitrator
+# Loading work.cn_crossbar
+# Sv_Seed = 3573911326
+# run -all
+# 0: start same_time_sep_comp_req_test
+# 101: [READ_REQUEST]: reqr_id: 0, comp_id: 2, addr: 2fea99b0f2a124d2, data: 0
+# 102: [WRITE_REQUEST]: reqr_id: 1, comp_id: 0, addr: 96be25f67b238b1, data: 2509c1cc
+# 103: [WRITE_REQUEST]: reqr_id: 2, comp_id: 1, addr: 11443b090d74b683, data: 628fda3f
+# 250: [WRITE_REQUEST]: reqr_id: 0, comp_id: 0, addr: 4dcd774b2e91047, data: af1cdb6b
+# 251: [WRITE_REQUEST]: reqr_id: 1, comp_id: 2, addr: 2a854e1c6dcd36fc, data: 82c26494
+# 252: [READ_REQUEST]: reqr_id: 2, comp_id: 1, addr: 1828b586b4526290, data: 0
+# 400: [WRITE_REQUEST]: reqr_id: 0, comp_id: 1, addr: 16daf36bf8485184, data: d3e53072
+# 401: [READ_REQUEST]: reqr_id: 1, comp_id: 2, addr: 2d9fbf8f3a4ee78c, data: 0
+# 402: [WRITE_REQUEST]: reqr_id: 2, comp_id: 3, addr: 3a2e14a5d4d0c959, data: 74b2d5f5
+# 550: complete same_time_sep_comp_req_test
+# ** Note: $finish    : ./sv/test/same_time_sep_comp_test.sv(74)
+#    Time: 550 ps  Iteration: 1  Instance: /same_time_sep_comp_test
+# End time: 19:00:26 on Dec 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
